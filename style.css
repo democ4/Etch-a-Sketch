@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#title{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.container{
+    margin-top: 15px;
+  display: grid;  
+  grid-template-columns: repeat(8 ,auto ) ;
+
+  grid-gap: 1px;
+  padding: 1px;
+
+    border: black 1px solid;
+    background-color: rgba(230, 188, 140, 0.972);
+    width: 560px;
+    height: 560px;
+}
+.container > div{
+    background-color: blanchedalmond;
+}
